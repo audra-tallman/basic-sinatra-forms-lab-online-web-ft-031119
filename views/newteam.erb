@@ -5,50 +5,17 @@
   <title>Basketball Team Signup</title>
  </head>
  <body>
-   
-  <form action="/contact" method="POST">
- 
-  <label for="POST-team">Team Name:</label>
-  <input id="POST-team" type="text" name="team">
-  
-   <br/>
-
-  <label for="POST-coach">Coach:</label>
-  <input id="POST-coach" type="text" name="coach">
-
-  <br/>
-
-  <label for="POST-point-guard"> Point Guard:</label>
-  <input id="POST-point-guard" type="text" name="point-guard">
-
-  <br/>
-
-  <label for="POST-shooting-guard">Shooting Guard:</label>
-  <input id="POST-shooting-guard" type="text" name="shooting-guard">
-
-  <br/>
-
-  <label for="POST-small-forward">Small Forward:</label>
-  <input id="POST-small-forward" type="text" name="small-forward">
-
-  <br/>
-
-  <label for="POST-power-forward">Power Forward:</label>
-  <input id="POST-power-forward" type="text" name="power-forward">
-  
-   <br/>
-
-  <label for="POST-center">Center:</label>
-  <input id="POST-center" type="text" name="center">
-
-  <br/>
-  
-  <label for="POST-zip">Zip:</label>
-  <input id="POST-zip" type="text" name="zip">
-
-  <br/>
-
-  <button type="submit" value="Sign Me Up!">Sign Me Up!</button>
+    
+  <form method="POST" action="/team">
+    
+     <label>Team Name: <input type="text" name="name" /></label><br/>
+     <label>Coach: <input type="text" name="coach" /></label><br/>
+     <label>Point Guard: <input type="text" name="pg" /></label><br/>
+     <label>Shooting Guard: <input type="text" name="sg" /></label><br/>
+     <label>Power Forward: <input type="text" name="pf" /></label><br/>
+     <label>Small Forward: <input type="text" name="sf" /></label><br/>
+     <label>Center: <input type="text" name="c" /></label><br/><br/>
+     <input type="submit" id="Submit" />
    
   </form> 
  </body>
